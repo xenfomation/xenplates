@@ -13,7 +13,7 @@
 # TESTED ON		: XenServer 6.2, 6.5
 # DISTRO		: Based on Ubuntu (which implies Debian)
 # ARCHITECTURE	: 32/64 BITS
-# XENTOOLS		: Must be manually installed (dpkg -i xe-guest*deb)
+# XENTOOLS		: Must be manually installed (dpkg -i xe*amd64.deb or dpkg -i xe*i386.deb)
 # OTHER NOTES	: Plasma menu controls/are UNUSABLE if not UNREADABLE
 #
 ################################################################################
