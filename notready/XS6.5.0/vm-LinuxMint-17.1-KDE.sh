@@ -1,8 +1,8 @@
 
-##[ Linux Mint 17.1 Rebecca KDE ]###############################################
+##[ Linux Mint "Debian" MATE ]##################################################
 #
 # REV 2.0
-# 01 FEB 2015, JK Benedict
+# 28 DEC 2014, JK Benedict
 # xenfomation.servercide.com | @xenfomation
 # 
 # XENSERVER AND TEMPLATE INFORMATION:
@@ -17,10 +17,6 @@
 # OTHER NOTES	: Plasma menu controls/are UNUSABLE if not UNREADABLE
 #
 ################################################################################
-
-#
-# TEMPLATE TO BE UPDATED WHEN TESTING PROVES THAT KDE VISUALS ARE PERFECT
-#
 
 #srcUUID=$(xe template-list name-label="Other install media" --minimal)
 #
