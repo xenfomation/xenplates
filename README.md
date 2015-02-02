@@ -16,7 +16,8 @@ or EULA stored here.
 
 * Copy one or more desired templates to your XenServer
 * Gain access to the CLI of the XenServer
-* Execute: sh <name-of-template>.sh to install
+* Execute: sh name-of-template.sh
+* The template should then be available through the CLI or XenCenter
 
 That's it!
 
