@@ -1,5 +1,5 @@
 
-##[ Linux Mint "LMDE"" ]########################################################
+##[ Linux Mint "LMDE" ]#########################################################
 #
 # REV 2.0
 # 28 DEC 2014, JK Benedict
@@ -14,16 +14,16 @@
 # DISTRO		: Based on Debian
 # ARCHITECTURE	: 32/64 BITS
 # XENTOOLS		: Must be manually installed (dpkg -i xe*amd64.deb or dpkg -i xe*i386.deb)
-# OTHER NOTES	: Plasma menu controls/are UNUSABLE if not UNREADABLE
+# OTHER NOTES	: N/A
 #
 ################################################################################
 
 srcUUID=$(xe template-list name-label="Other install media" --minimal)
 
-dstUUID=$(xe vm-clone uuid=$srcUUID new-name-label="Linux Mint "LMDE" (MATE Spin)")
+dstUUID=$(xe vm-clone uuid=$srcUUID new-name-label="Linux Mint \"LMDE MATE Edition\"")
 
 xe template-param-set uuid=$dstUUID \
-	name-description="COMMUNITY TEMPLATE for Linux Mint \"LMDE\": Debian-based, MATE UI, rolling update spin (32 or 64-bit).  MINIMUM Guest VM requirements are 512MB of RAM and 10GB of available disk space.  OPTIMUM Guest VM requirements are 1024MB of RAM and 20GB of available disk space.  The installer media can be downloaded from http://www.linuxmint.com/release.php?id=14" \
+	name-description="COMMUNITY TEMPLATE for Linux Mint \"LMDE MATE Edition\": rolling-update release (32 or 64-bit).  MINIMUM Guest VM requirements are 512MB of RAM and 10GB of available disk space.  OPTIMUM Guest VM requirements are 1024MB of RAM and 20GB of available disk space.  The installer media can be downloaded from http://www.linuxmint.com/release.php?id=14" \
 	memory-static-max=536870912 \
 	memory-dynamic-max=536870912 \
 	memory-dynamic-min=536870912 \
