@@ -1,8 +1,7 @@
 
 ##[ Linux Mint "LMDE" ]#########################################################
 #
-# REV 2.0
-# 28 DEC 2014, JK Benedict
+# 01 DEC 2014, JK Benedict
 # xenfomation.servercide.com | @xenfomation
 # 
 # XENSERVER AND TEMPLATE INFORMATION:
@@ -12,7 +11,8 @@
 # DISTRO		: Based on Debian
 # ARCHITECTURE	: 32/64 BITS
 # XENTOOLS		: Must be manually installed (dpkg -i xe*amd64.deb or dpkg -i xe*i386.deb)
-# OTHER NOTES	: N/A
+# OTHER NOTES	: Ensure that post-install, all updates to the Guest VM are applied:
+#				  this should take care of any "visual issues" with LXDE
 #
 ################################################################################
 
