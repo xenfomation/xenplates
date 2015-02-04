@@ -7,8 +7,6 @@
 # 
 # XENSERVER AND TEMPLATE INFORMATION:
 #
-# OPINION		: WORKS WELL
-#
 # INTENDED FOR	: XenServer 6.5
 # TESTED ON		: XenServer 6.5 
 # DISTRO		: Debian (Unstable)
@@ -22,10 +20,10 @@
 
 srcUUID=$(xe template-list name-label="Other install media" --minimal)
 
-dstUUID=$(xe vm-clone uuid=$srcUUID new-name-label="SolydXK Linux 201501 (XFCE Spin)")
+dstUUID=$(xe vm-clone uuid=$srcUUID new-name-label="SolydXK Linux")
 
 xe template-param-set uuid=$dstUUID \
-	name-description="COMMUNITY TEMPLATE for SolydXK Linux 201501 (XFCE Spin): 32 or 64-bit.  Guest VM requirements may be currently over estimated.  The installer media can be downloaded from http://solydxk.com/" \
+	name-description="COMMUNITY TEMPLATE for SolydX (XFCE Spin) or SolydK (KDE Spin) Linux 201501: 32 or 64-bit.  Guest VM requirements may be currently over estimated.  The installer media can be downloaded from http://solydxk.com/" \
 	memory-static-max=536870912 \
 	memory-dynamic-max=536870912 \
 	memory-dynamic-min=536870912 \

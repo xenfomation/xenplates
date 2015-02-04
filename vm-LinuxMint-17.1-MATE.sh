@@ -7,8 +7,6 @@
 # 
 # XENSERVER AND TEMPLATE INFORMATION:
 #
-# OPINION		: WORKS WELL
-#
 # INTENDED FOR	: XenServer 6.5
 # TESTED ON		: XenServer 6.2, 6.5
 # DISTRO		: Based on Ubuntu (which implies Debian)
